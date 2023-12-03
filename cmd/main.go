@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"AdventOfCode/internal/aoc"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("test")
+	input := aoc.GetInput()
+	fmt.Println(input)
 }
