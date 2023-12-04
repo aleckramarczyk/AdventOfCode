@@ -1,11 +1,11 @@
 package main
 
 import (
-	"AdventOfCode/internal/aoc"
-	"fmt"
+	"github.com/aleckramarczyk/AdventOfCode/utils"
 )
 
 func main() {
-	input := aoc.GetInput()
-	fmt.Println(input)
+	day, year, part, session := utils.ParseFlags()
+	utils.GetInput(day, year, session)
+	utils.Run(day, year, part)
 }
